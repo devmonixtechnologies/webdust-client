@@ -1,0 +1,147 @@
+
+> build
+> remix vite:build
+
+vite v5.1.3 building for production...
+transforming...
+✓ 948 modules transformed.
+x Build failed in 3.82s
+Error [RollupError]: "useScrollIndicator" is not exported by "app/hooks/index.js", imported by "app/root.jsx".
+file: /home/icy/Desktop/dtcworld/fahad/portfolio-master/app/root.jsx:10:2
+ 8:   useLoaderData,
+ 9:   useNavigation,
+10:   useRouteError,
+      ^
+11: } from '@remix-run/react';
+12: import { createCookieSessionStorage, json } from '@remix-run/cloudflare';
+    at getRollupEror (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/parseAst.js:375:41)
+    at error (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/parseAst.js:372:42)
+    at Module.error (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:13651:16)
+    at Module.traceVariable (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:14099:29)
+    at ModuleScope.findVariable (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:11802:39)
+    at FunctionScope.findVariable (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:6016:38)
+    at FunctionBodyScope.findVariable (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:6016:38)
+    at Identifier.bind (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:7296:40)
+    at CallExpression.bind (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:4732:23)
+    at CallExpression.bind (file:///home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:8961:15) {
+  binding: 'useScrollIndicator',
+  code: 'MISSING_EXPORT',
+  exporter: '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/hooks/index.js',
+  id: '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/root.jsx',
+  url: 'https://rollupjs.org/troubleshooting/#error-name-is-not-exported-by-module',
+  pos: 625,
+  loc: {
+    column: 2,
+    file: '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/root.jsx',
+    line: 10
+  },
+  frame: ' 8:   useLoaderData,\n' +
+    ' 9:   useNavigation,\n' +
+    '10:   useRouteError,\n' +
+    '      ^\n' +
+    "11: } from '@remix-run/react';\n" +
+    "12: import { createCookieSessionStorage, json } from '@remix-run/cloudflare';",
+  watchFiles: [
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/articles.modern-styling-in-react.mdx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.smart-sparrow/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/root.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/articles_._index/route.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.slice/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/contact/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/uses/route.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/$.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/articles.hello-world.mdx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/api.set-theme.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/articles/route.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/package.json',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react/jsx-runtime.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-dom/client.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/browser.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/scroll-restoration.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/components.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/server.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-router-dom/dist/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react/cjs/react-jsx-runtime.production.min.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react/cjs/react.production.min.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-dom/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.smart-sparrow/smart-sparrow.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.slice/slice.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/home.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/volkihar-knight.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/contact/contact.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/uses/uses.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/errorBoundaries.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/_virtual/_rollupPluginBabelHelpers.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-router-dom/server.mjs',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/formData.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/routes.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/cookies.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/server.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/responses.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/sessions/cookieStorage.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/sessions/memoryStorage.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/sessions.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/upload/memoryUploadHandler.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/upload/errors.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/dev.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-dom/cjs/react-dom.production.min.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/router/dist/router.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/errors.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/react-router/dist/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/invariant.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/links.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/markup.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/intro.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/profile.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/project-summary.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/home.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/global.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.slice/slice.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/volkihar-logo.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/volkihar-knight.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/armor.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/contact/contact.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.smart-sparrow/smart-sparrow.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.smart-sparrow/earth.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/uses/uses.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/config.json',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/scheduler/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@web3-storage/multipart-parser/esm/src/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/routeModules.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/data.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/react/dist/esm/fallback.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/warnings.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/cookie/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/entry.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/errors.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/headers.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/invariant.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/mode.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/routeMatching.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/routes.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/node_modules/@remix-run/server-runtime/dist/esm/serverHandoff.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/articles_._index/articles.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/utils/style.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/utils/meta.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/theme-provider/theme.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/profile.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/intro.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/displacement-sphere.jsx',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/home/project-summary.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.volkihar-knight/armor.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/routes/projects.smart-sparrow/earth.module.css',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/footer/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/image/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/layouts/project/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/button/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/carousel/index.js',
+    '/home/icy/Desktop/dtcworld/fahad/portfolio-master/app/components/decoder-text/index.js',
+    ... 684 more items
+  ]
+}
