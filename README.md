@@ -39,4 +39,4 @@ npm run deploy
 
 ## Permissions
 
-We're cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own.
+We're cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, we would encourage you to modify the theme and components it to make it your own.
