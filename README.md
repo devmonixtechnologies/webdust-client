@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/public/favicon.svg" width="50" alt="Logo" />
 </p>
-<h1 align="center">Personal portfolio</h1>
+<h1 align="center">Webdust portfolio</h1>
 
 <img width="2034" height="1139" alt="webdust-screenshot2" src="https://github.com/user-attachments/assets/14bdadc4-0e49-4aaf-8a9c-5985cba6a89a" />
 <img width="2029" height="1140" alt="webdust-screenshot1" src="https://github.com/user-attachments/assets/4bd2ab7b-7795-451e-a4cb-4ca7321c1221" />
